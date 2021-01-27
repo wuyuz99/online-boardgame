@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Set a style for buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+.modal button{
+    width: 100%;
+}
+.showPopup button{
+    float: right;
+    margin: 10px;
+}
+.Timebomb button{
+    width: 20%;
+    height: 100px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=checkbox]{
+    vertical-align: middle;
+}
+.container {
+    padding: 16px;
+}
+.modal {
+    display: block;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.showPopup{
+    width: 100%;
+    text-aligh: center;
+}
+.showPopup p{
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+/* Create two equal columns that floats next to each other */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.row .column {
+    width: 50%;
+    padding: 10px;
+}
+.row .column2 {
+    width: 30%;
+    padding: 10px;
+}
+.row .column3{
+    width: 70%;
+    padding: 10px;
+}
+.row .column3 .column {
+    width: 70%;
+}
+.row .column3 .column button:hover{
+    opacity: 1;
+}

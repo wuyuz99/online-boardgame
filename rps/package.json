@@ -1,0 +1,8 @@
+{
+  "name": "Rock-Paper-Scissors",
+  "version": "0.0.1",
+  "description": "Rock Paper Scissors server",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
